@@ -10,6 +10,15 @@ body, html {
     color: black;
 }
 
+.main-title {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#ccc, royalblue);
+}
+
+.navbar {
+    color: rgb(17, 174, 100);
+}
+
 a {
     text-decoration: none;
     font-weight: bold;
@@ -40,7 +49,7 @@ textarea, input {
 }
 
 textarea:focus, input:focus {
-    outline: springgreen;
+    outline: rgb(17, 174, 100);
     border: 2px solid royalblue;
 }
 
@@ -79,20 +88,20 @@ main {
     padding: 2% 4%;
 }
 
-.btn-no-style {
+.btn {
     background: none;
     border: none;
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #225ca3;
+    color: royalblue;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
     margin-left: 16px;
 }
   
-.btn-no-style:hover {
+.btn:hover {
     background: none;
     color: #3486eb;
 }
@@ -117,6 +126,7 @@ main {
 }
   
 .edit-link {
+    color: rgb(17, 174, 100);
     display: block;
     margin: -1.5% 0 2% 0;
 }
@@ -125,13 +135,9 @@ main {
     margin-bottom: 5%;
 }
   
-.comment {
+.comments {
     padding: 1%;
     margin-bottom: 1%;
-}
-  
-.comment:nth-child(odd) {
-    background-color: #fff5eb;
 }
   
 .comment .meta {

@@ -1,21 +1,12 @@
-<div class="card mb-6">
-    <header class="card-header card-header-title has-background-grey-lighter">
-        <div class="column">
-            <p class="has-text-primary-light"></p>
-            <a href="/post{{id}}" class="has-text-black is-capitalized is-pulled-left">{{title}}</a>
+<article class="post">
+        <div class="title">
+            <a href="/post{{id}}">{{title}}</a>
         </div>
-
-        <div class="column">
-            <span class=""> </span>
-        </div>
-
-    </header>
-
-    <div class="card-content">
-        <div class="content has-text-justified">
+    <div class="meta">
+        <div >
             {{post_content}}
         </div>
-        <div class="is-pulled-right">
+        <div>
             <b>{{user.username}}</b> |
             <a href="https://github.com/{{user.github}}"><i class="fab fa-github"></i></a>
             <a href="https://linkedin.com/{{user.linkedIn}}"><i class="fab fa-linkedin"></i></a>
@@ -23,4 +14,4 @@
         </div>
 
     </div>
-</div>
+</article>
