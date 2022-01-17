@@ -8,6 +8,9 @@
         "start": "node server.js",
         "seed": "node seeds/index.js"
     },
+    "engines": {
+        "node": "12.11.1"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/nmendez4/tech-blog"
@@ -29,6 +32,7 @@
         "latest-version": "^6.0.0",
         "mysql": "^2.18.1",
         "mysql2": "^2.3.3",
+        "node": "^17.3.1",
         "sequelize": "^6.12.5"
     }
 }
