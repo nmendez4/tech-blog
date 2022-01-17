@@ -13,7 +13,7 @@ const session = require('express-session');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const SequelizeStore = require('connect-session-sequelize')(session.Store);
+const sequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const sess = {
     secret: 'super duper secret',
@@ -23,7 +23,7 @@ const sess = {
     resave: true,
     rolling: true,
     saveUninitialized: true,
-    store: new SequelizeStore({
+    store: new sequelizeStore({
         db: sequelize
     }),
 };
