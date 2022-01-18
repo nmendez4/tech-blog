@@ -22,7 +22,7 @@ and download the necessary items from package.json, then use MYSQL to create you
 * Heroku
 
 ## Screenshot
-![Screenshot-of-app](./public/images/tech-blog.png)
+![Screenshot-of-app](/public/images/tech-blog.png)
 
 ## Author
 Nicholas Mendez
